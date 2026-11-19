@@ -37,8 +37,8 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Halaman categories</h6>
-                       <a class="collapse-item" href="{{ route('products.index') }}">Index</a>
-                       <a class="collapse-item" href="{{ route('products.create') }}">Create</a>
+                       <a class="collapse-item" href="{{ route('categories.index') }}">Data kategori</a>
+                       <a class="collapse-item" href="{{ route('categories.create') }}">Tambah kategori</a>
                     </div>
                 </div>
             </li>
@@ -54,8 +54,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Halaman Produk</h6>
-                        <a class="collapse-item" href="{{route('products.index') }}">Index</a>
-                        <a class="collapse-item" href="{{route('products.create') }}">Create</a>
+                        <a class="collapse-item" href="{{route('products.index') }}">Data kategori</a>
+                        <a class="collapse-item" href="{{route('products.create') }}">Tambah kategori</a>
                     </div>
                 </div>
             </li>
